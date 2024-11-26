@@ -1,0 +1,56 @@
+.destination {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.destination img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.destination h3 {
+  margin: 0.5rem 0;
+  color: #333;
+}
+.destination p {
+  padding: 0 1rem 1rem;
+  color: #666;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: white;
+  color: #4CAF50;
+  padding: 1rem 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+nav a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

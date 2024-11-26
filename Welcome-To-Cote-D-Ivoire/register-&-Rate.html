@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register and Rate your experience</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+    input, textarea, select, button {
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #303030;
+      color: whitesmoke;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background-color: orange;
+    }
+    header {
+      text-align: center;
+      background-color: green;
+      color: white;
+      padding: 1rem 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: green;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: green; /* Darker green */
+      color: white;
+    }
+  </style>
+
+  <header>
+    <h1>Register & Rate your experience </h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="register-&-Rate.html">Register & Rate</a></li>
+      </ul>
+    </nav>
+  </header>
+</head>
+<body>
+<form id="registerForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+  <!-- Optional Password Field -->
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+  <label for="rating">Rating (1-5):</label>
+  <select id="rating" name="rating" required>
+    <option value="">--Select a Rating--</option>
+    <option value="1">1 - Poor</option>
+    <option value="2">2 - Fair</option>
+    <option value="3">3 - Good</option>
+    <option value="4">4 - Very Good</option>
+    <option value="5">5 - Excellent</option>
+  </select>
+
+  <label for="feedback">Feedback:</label>
+  <textarea id="feedback" name="feedback" placeholder="Share your thoughts (optional)"></textarea>
+
+
+  <button type="submit">Submit</button>
+</form>
+
+<div id="result" class="centered" style="display: none;"></div>
+
+<script src="js/welcome-To-Cote-D-Ivoire.js"></script>
+<footer>
+  <p>&copy; 2024 Welcome to Côte d'Ivoire</p>
+</footer>
+
+</body>
+</html>
+
