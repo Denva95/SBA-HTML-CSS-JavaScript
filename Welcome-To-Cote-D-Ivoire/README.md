@@ -9,25 +9,25 @@ Start your journey with us and let the magic of Côte d’Ivoire captivate your 
 
 ---
 
-## 🌟 Features
+##  Features
 
 - **Multi-Page Website**:
   Includes Three main pages:
   - **Home Page**: Emblem of Côte d'Ivoire with welcoming in different language of the country and an introduction.
-  - **Discover Page**: Highlights popular tourist spots across the country, Showcases the traditions,
+  - **Explore Page**: Highlights popular tourist spots across the country, Showcases the traditions,
   festivals, and agriculture (e.g., cocoa and coffee), dish, and music.
   - **Register & Rate Page**: A feedback form for visitors to rate their experience.
 
 - **Interactive Components**:
   - Dropdown-style navigation for smooth user experience(Register and Rate).
-  - Simple navigation (Home page, Discover page, Register & Rate)
-  - Dynamic content showcasing text, images, videos, and GIFs.
+  - Simple navigation (Home, Explore, Register & Rate)
+  - Dynamic content showcasing text, images.
   - User feedback form with validation using **Regex**.
 
 - **Styling**:
   - Responsive layout with CSS Grid and Flexbox for alignment.
   - Inline, internal, and external CSS.
-  - Aesthetic web fonts for a polished look.(Include a web font from Google Fonts into my webpage).
+  - Aesthetic web fonts for a polished look.
   - Colors inspired by the country's flag
 
 
@@ -64,7 +64,7 @@ Start your journey with us and let the magic of Côte d’Ivoire captivate your 
 3. Launch the website by opening http://localhost:63342/Welcome-To-Cote-D-Ivoire/home.html
 
 ---
-🌍 Description
+Description
 Côte d'Ivoire, also known as Ivory Coast, is a land of natural beauty, cultural diversity, and a hub for African art and music.
 This website captures the essence of the country by:
 - On the homepage, visitors are warmly welcomed with greetings in various languages spoken across Côte d'Ivoire,
@@ -74,6 +74,5 @@ This website captures the essence of the country by:
 - Showcasing the rich cultural heritage and traditions, including cocoa and coffee agriculture.
 - Allowing users to register and share their feedback or ratings.
 
-
-© 2024 - Developed by [Ndissan Vatie Dea]
+Developed by [Ndissan Vatie Dea]
 
