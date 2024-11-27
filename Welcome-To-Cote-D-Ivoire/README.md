@@ -21,7 +21,7 @@ Start your journey with us and let the magic of Côte d’Ivoire captivate your 
 - **Interactive Components**:
   - Dropdown-style navigation for smooth user experience(Register and Rate).
   - Simple navigation (Home, Explore, Register & Rate)
-  - Dynamic content showcasing text, images.
+  - Dynamic content showcasing text, images, videos, GIFs.
   - User feedback form with validation using **Regex**.
 
 - **Styling**:
