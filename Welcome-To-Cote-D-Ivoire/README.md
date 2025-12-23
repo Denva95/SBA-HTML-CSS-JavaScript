@@ -61,7 +61,7 @@ Start your journey with us and let the magic of Côte d’Ivoire captivate your 
    ```bash
    git clone <https://github.com/Denva95/SBA-HTML-CSS-JavaScript.git>
 2. Open the project folder.
-3. Launch the website by opening http://localhost:63342/Welcome-To-Cote-D-Ivoire/home.html
+3. Launch the website by opening http://localhost:63342/Welcome-To-Cote-D-Ivoire/index.html
 
 ---
 Description
